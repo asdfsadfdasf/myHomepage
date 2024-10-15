@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수학자 및 교수 소개</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #004c98;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .intro, .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro img, .profile-photo {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .intro-text {
+            max-width: 600px;
+        }
+
+        section {
+            padding: 20px;
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #004c98;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* 반응형 미디어 쿼리 */
+        @media (max-width: 768px) {
+            .intro, .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .intro img, .profile-photo {
+                margin: 0 0 20px 0;
+                width: 150px;
+            }
+
+            header nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header nav ul li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">소개</a></li>
+                <li><a href="#">연구</a></li>
+                <li><a href="#">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="profile">
+        <img src="euclid.jpg" alt="유클리드" class="profile-photo">
+        <div class="intro-text">
+            <h2>유클리드</h2>
+            <p>출생/사망: 기원전 300년 경 / 기원전 265년 경</p>
+            <p>유클리드는 고대 그리스의 수학자로, 기하학의 기초를 다진 인물입니다.</p>
+            <ul>
+                <li>《기하학 원론》</li>
+                <li>유클리드 기하학</li>
+                <li>유클리드 알고리즘</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="impact">
+        <h2>업적의 영향</h2>
+        <p>유클리드의 연구는 현대 수학의 기초를 다졌습니다.</p>
+        <img src="infographic.svg" alt="인포그래픽" class="infographic">
+    </section>
+
+    <section class="facts">
+        <h2>흥미로운 사실</h2>
+        <ul>
+            <li>유클리드는 "기하학의 아버지"라고 불립니다.</li>
+            <li>그의 저서는 2000년 이상 사용되고 있습니다.</li>
+        </ul>
+    </section>
+
+    <section class="books">
+        <h2>주요 저서 및 논문</h2>
+        <ul>
+            <li><strong>《기하학 원론》</strong> - 기하학의 기본 개념을 정리한 고전.</li>
+            <li><strong>《데이터》</strong> - 기하학적 문제 해결 도구.</li>
+        </ul>
+    </section>
+
+    <section class="videos">
+        <h2>관련 비디오</h2>
+        <div class="video">
+            <a href="https://www.youtube.com/watch?v=WqzK3UAXaHs" target="_blank"><img src="thumbnail.png" alt="비디오 썸네일"></a>
+        </div>
+    </section>
+
+    <section class="timeline">
+        <h2>연대기</h2>
+        <ul>
+            <li>기원전 300년: 유클리드 출생</li>
+            <li>기원전 265년: 유클리드 사망</li>
+            <li>300년: 《기하학 원론》 출판</li>
+        </ul>
+    </section>
+
+    <section class="problems">
+        <h2>관련 문제 풀이</h2>
+        <ul>
+            <li>문제 1: 삼각형의 넓이 구하기 (난이도: 중)</li>
+            <li>문제 2: 두 점 사이의 거리 계산 (난이도: 쉬움)</li>
+        </ul>
+    </section>
+
+    <section class="resources">
+        <h2>추천 자료</h2>
+        <ul>
+            <li><strong>서적:</strong> "기하학의 역사" - 심층 분석</li>
+            <li><strong>웹사이트:</strong> "수학의 세계" - 수학 개념 자료</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
